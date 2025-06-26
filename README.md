@@ -29,7 +29,8 @@ we propose a high-precision performance prediction model, SGFormer-RGCN, that in
 - Vivado 2022.1
 
 ## Dataset
-
+- This dataset is derived from the publicly available benchmark suite MarchSuite, encompassing 10 benchmarks such as aes and bfs, and a total of 11,327 design instances. These instances cover four levels of optimization directives: Function, Loop, Array, and Operator. Each instance is represented by graph structures and features generated from CDFGs and HLS reports.
+- Standard dataset is available at https://pan.baidu.com/s/1vuNft44EYGcK7SKpoXHm6w. (Extraction code: cewy)
 ## Baseline
 - IRONMAN-PRO
 - GCN+GF
