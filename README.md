@@ -28,7 +28,7 @@
 - Vivado 2022.1
 
 ## Baseline
--IRONMAN-PRO
+- IRONMAN-PRO
 - GCN+GF
 - GAT+GF
 - SAGE+GF
