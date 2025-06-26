@@ -1,9 +1,9 @@
 # SGFormer-RGCN: Accurate Performance Prediction for High-Level Synthesis Design Space Exploration
 
 ## Content
-### [About the project](urlAbout the project)
-### Required environment
-### Baseline
+- [About the project](#about-the-project)
+- [Required environment](#required-environment)
+- [Baseline](#baseline)
 
 ## About the project
 
