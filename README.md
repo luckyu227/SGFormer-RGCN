@@ -11,8 +11,8 @@ we propose a high-precision performance prediction model, SGFormer-RGCN, that in
 
 ### Contribution
 - We adopt RGCN as the core predictive module, combined with a global pooling mechanism for feature integration. RGCN effectively leverages multi-relational edge types during message propagation, enhancing the model's ability to capture semantic dependencies among nodes. Compared to hierarchical pooling methods, global pooling does not require the introduction of additional node or edge selection mechanisms, thereby preserving the complete structural information of the graph.
-
-
+- To overcome the limitation of conventional GNNs in modeling long-range dependencies, we propose a hybrid architecture SGFormer-RGCN. This model incorporates the SGFormer module, which employs a global attention mechanism with linear computational complexity to enable full-node interaction across the graph. By combining the local multi-relation aggregation capabilities of RGCN with the global dependency modeling of SGFormer, SGFormer-RGCN jointly captures both fine-grained local structures and holistic semantic patterns, significantly improving prediction accuracy and generalization capability.
+- Experimental results show that SGFormer-RGCN achieves an average prediction error of 2.70\%–7.18\% across key performance metrics, including resource utilization, critical path timing, and power consumption, significantly outperforming existing methods. These results demonstrate the model's superiority and robustness in HLS performance prediction tasks.
 
 ## Required environment
 ### Python Environmant
