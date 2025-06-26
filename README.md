@@ -32,8 +32,10 @@ we propose a high-precision performance prediction model, SGFormer-RGCN, that in
 - The proposed SGFormer-RGCN model is implemented using the PyTorch Geometric framework and evaluated on the standard dataset presented in *HGBO-DSE: Hierarchical GNN and Bayesian Optimization Based HLS Design Space Exploration* ([IEEE ICFPT 2023](https://ieeexplore.ieee.org/abstract/document/10416120)). This dataset is derived from the publicly available benchmark suite MarchSuite, encompassing 10 benchmarks such as aes and bfs, and a total of 11,327 design instances. These instances cover four levels of optimization directives: Function, Loop, Array, and Operator. Each instance is represented by graph structures and features generated from CDFGs and HLS reports.
 - Standard dataset is available at https://pan.baidu.com/s/1vuNft44EYGcK7SKpoXHm6w. (Extraction code: cewy)
 ## Baseline
+This project includes the following baseline models for performance comparison:
 - IRONMAN-PRO
 - GCN+GF
 - GAT+GF
 - SAGE+GF
 - RGCN+GF
+Implementation code and pre-trained models are available under the `baseline/` directory.
