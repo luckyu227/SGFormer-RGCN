@@ -3,6 +3,7 @@
 ## Content
 - [About the project](#about-the-project)
 - [Required environment](#required-environment)
+- [Dataset](#dataset)
 - [Baseline](#baseline)
 ## About the project
 we propose a high-precision performance prediction model, SGFormer-RGCN, that integrates both global and local modeling capabilities. The model organically combines the global contextual representation strength of SGFormer with the local structural awareness of the RGCN. By introducing a learnable adaptive fusion mechanism, the model dynamically allocates weights between global and local features, enabling more flexible and efficient information integration. This mechanism not only captures long-range dependencies but also identifies fine-grained structural patterns. 
@@ -26,6 +27,8 @@ we propose a high-precision performance prediction model, SGFormer-RGCN, that in
 ### Vitis Environment
 - Vitis HLS 2022.1
 - Vivado 2022.1
+
+## Dataset
 
 ## Baseline
 - IRONMAN-PRO
