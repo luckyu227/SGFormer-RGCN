@@ -46,4 +46,4 @@ This project includes the following baseline models for performance comparison:
 - SAGE+GF
 - RGCN+GF
 
-Implementation code and pre-trained models are available under the [`baseline/`](./baseline/).
+Implementation code and pre-trained models are available under the "./baseline/":.
