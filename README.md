@@ -38,4 +38,4 @@ This project includes the following baseline models for performance comparison:
 - GAT+GF
 - SAGE+GF
 - RGCN+GF
-Implementation code and pre-trained models are available under the `baseline/` directory.
+Implementation code and pre-trained models are available under the [`baseline/`](./baseline/)
