@@ -40,6 +40,7 @@ We propose a high-precision performance prediction model, SGFormer-RGCN, that in
 <a id="baseline"></a>
 ## Baseline
 Implementation code and pre-trained models are available under the "baseline".
+
 This project includes the following baseline models for performance comparison:
 - IRONMAN-PRO
 - GCN+GF
