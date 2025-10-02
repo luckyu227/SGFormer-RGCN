@@ -9,7 +9,7 @@
 <a id="about-the-project"></a>
 ## About the project
 We propose a high-precision performance prediction model, SGFormer-RGCN, that integrates both global and local modeling capabilities. The model organically combines the global contextual representation strength of SGFormer with the local structural awareness of the RGCN. By introducing a learnable adaptive fusion mechanism, the model dynamically allocates weights between global and local features, enabling more flexible and efficient information integration. This mechanism not only captures long-range dependencies but also identifies fine-grained structural patterns.  
-![SGFormer-RGCN Architecture](framework/sgformer-rgcn-framework.png)
+![SGFormer-RGCN Architecture](framework/sgformer-rgcn framework.png)
 
 ### Contribution
 - We adopt RGCN as the core predictive module, combined with a global pooling mechanism for feature integration. RGCN effectively leverages multi-relational edge types during message propagation, enhancing the model's ability to capture semantic dependencies among nodes. Compared to hierarchical pooling methods, global pooling does not require the introduction of additional node or edge selection mechanisms, thereby preserving the complete structural information of the graph.
