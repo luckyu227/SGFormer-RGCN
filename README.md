@@ -45,6 +45,8 @@ This project includes the following baseline models for performance comparison:
 - GCN+GF
 - GAT+GF
 - SAGE+GF
+- PNA+GF
+- HARP+GF
 - RGCN+GF
 
 
